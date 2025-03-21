@@ -9,6 +9,6 @@
     "esModuleInterop": true, // 支持 CommonJS 和 ES 模块的互操作
     "lib": ["es2017", "dom", "esnext"]
   },
-  "include": ["src/**/*"], // 包含的文件
+  "include": ["src/**/*", "generate-exports.js"], // 包含的文件
   "exclude": ["node_modules"] // 排除的文件
 }

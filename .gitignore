@@ -1,2 +1,6 @@
 echo "dist/" >> .gitignore
 echo "node_modules/" >> .gitignore
+# Ignore node_modules directory
+node_modules/
+
+dist/
