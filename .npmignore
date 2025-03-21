@@ -1,0 +1,11 @@
+# 忽略源代码和配置文件
+src/
+tsconfig.json
+
+# 忽略测试文件
+test/
+*.test.ts
+
+# 忽略其他文件
+.gitignore
+.npmignore
