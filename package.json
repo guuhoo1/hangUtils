@@ -1,9 +1,10 @@
 {
   "name": "@wuguohang/hangutils",
-  "version": "1.0.6",
+  "version": "1.1.2",
   "description": "基于ramda扩展的个人工具库",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "source": "src/index.js",
   "scripts": {
     "publish:project": "npx tsc && npm version patch && npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"

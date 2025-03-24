@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 // 目标目录（假设是当前目录下的 `src` 目录）
-const targetDir = path.join(__dirname, 'src')
+const targetDir = path.join(__dirname, '/src')
 
 // 输出文件路径
 const outputFile = path.join(__dirname, 'src', 'index.ts')

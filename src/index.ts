@@ -1,4 +1,3 @@
-export * from 'ramda'
 export { default as appendQueryParams } from './appendQueryParams'
 export { default as assignQueryParams } from './assignQueryParams'
 export { default as blinkDomElement } from './blinkDomElement'

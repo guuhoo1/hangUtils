@@ -9,3 +9,6 @@ test/
 # 忽略其他文件
 .gitignore
 .npmignore
+
+# 保留 src 目录
+!src/
