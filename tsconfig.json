@@ -10,7 +10,7 @@
     "lib": ["es2017", "dom", "esnext"],
     "baseUrl": ".",
     "paths": {
-      "your-library/src/*": ["./src/*"]
+      "@wuguohang/src/*": ["./src/*"]
     }
   },
   "include": ["src/**/*", "generate-exports.js"], // 包含的文件
