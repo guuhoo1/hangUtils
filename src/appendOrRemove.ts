@@ -15,9 +15,11 @@ import append from 'ramda/src/append'
  *  appendOrRemove('four', state) // 返回: ['one', 'two', 'three', 'four']
  *  appendOrRemove('two', state) // 返回: ['one', 'three']
  */
-export const appendOrRemove = <T>(target: T, list: readonly T[]): T[] =>
+const appendOrRemove = <T>(target: T, list: readonly T[]): T[] =>
   ifElse(
     includes(target),
     () => without([target], list),
     () => append(target, list)
   )(list)
+
+export default appendOrRemove

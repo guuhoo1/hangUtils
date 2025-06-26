@@ -44,6 +44,7 @@ export { default as textFromClipboard } from './textFromClipboard'
 export { default as timer } from './timer'
 export { default as updateBy } from './updateBy'
 export { default as updateById } from './updateById'
+export { default as appendOrRemove } from './appendOrRemove'
 
 export * from 'ramda'
 //
