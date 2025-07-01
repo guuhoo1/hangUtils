@@ -46,6 +46,7 @@ export { default as updateBy } from './updateBy'
 export { default as updateById } from './updateById'
 export { default as appendOrRemove } from './appendOrRemove'
 export { default as mapReplace } from './mapReplace'
+export { default as removeByV2 } from './removeByV2'
 
 export * from 'ramda'
 //
